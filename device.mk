@@ -362,6 +362,15 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    fs_config_files
 
+# microG project
+PRODUCT_PACKAGES += \
+    GmsCore \
+    GsfProxy
+
+# F-Droid project
+PRODUCT_PACKAGES += \
+    Fdroid
+
 PRODUCT_PROPERTY_OVERRIDES += \
    ro.frp.pst=/dev/block/platform/msm_sdcc.1/by-name/frp
 
